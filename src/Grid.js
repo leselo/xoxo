@@ -79,7 +79,7 @@ export default function Grid() {
       console.log("Game Over: " + msg);
       setWhoWon(msg);
       document.getElementById("gameover").style.visibility = "visible";
-    }, 1000);
+    }, 1001);
   }
 
   //main body of game
